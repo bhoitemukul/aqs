@@ -1,0 +1,16 @@
+.projects-list-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+
+.p-img-wrap {
+    flex-basis: 40%;
+    padding: 5% 5% 2%;
+}
+
+.p-img-wrap img {
+    width: 100%;
+}

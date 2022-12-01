@@ -1,0 +1,105 @@
+svg {
+    width: 100%;
+    height: 100%;
+    fill: currentcolor;
+    vertical-align: middle;
+}
+
+.copyright-wrap {
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+    min-height: 70px;
+    padding: 15px;
+    text-align: center;
+}
+
+/* .copyright-wrap-link {
+    display: none;
+} */
+
+/* @media (orientation: landscape) {
+    .copyright-wrap-link {
+        display: block;
+        width: 100%;
+        max-width: 270px;
+        margin: 0px auto 10px;
+        color: var(--light-slate);
+    }
+} */
+
+@media (max-width: 768px) {
+    .copyright-wrap-link {
+        display: block;
+        width: 100%;
+        max-width: 270px;
+        margin: 0px auto 10px;
+        color: var(--light-slate);
+    }
+}
+
+.copyright-wrap-link ul {
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+.copyright-wrap-link ul a {
+    padding: 10px;
+}
+
+.copyright-wrap-link ul a svg {
+    width: 25px;
+    height: 25px;
+}
+
+.copyright-wrap-credit {
+    /* color: var(--light-slate);
+    font-family: var(--font-Regular); */
+    font-size: var(--fz-xxs);
+    line-height: 1;
+    color: var(--primary);
+    font-family: var(--font-Regular);
+    font-size: var(--fz-xxs);
+    line-height: 1;
+    padding: 10px 20px;
+    margin: 10px 0;
+    background-color: #494752;
+    border-radius: 10px;
+    filter: drop-shadow(5px 6px 4px rgba(0, 0, 0, .3));
+}
+
+.copyright-wrap-credit:hover {
+    color: var(--navy);
+}
+
+.copyright-wrap-credit a {
+    padding: 10px;
+}
+
+.copyright-wrap-credit .github-stats {
+    margin-top: 10px;
+}
+
+.copyright-wrap-credit .github-stats>span {
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    margin: 0px 7px;
+}
+
+.copyright-wrap-credit .github-stats svg {
+    display: inline-block;
+    width: auto;
+    height: 15px;
+    margin-right: 5px;
+}
