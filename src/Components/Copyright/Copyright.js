@@ -59,11 +59,8 @@ class Copyright extends Component {
         <div className="copyright-wrap-credit">
           {/* © 2020 AQS All Rights Reserved. */}
           <a href="https://garudkar.in" target="_blank">
-            <div>© 2020 Designed &amp; developed</div>
+            <div>© 2020 Designed & developed by Mac</div>
           </a>
-          {/* <a href="https://garudkar.in" target="_blank">
-            <div>© 2020 AQS All Rights Reserved.</div>
-          </a> */}
         </div>
       </footer>
     );
